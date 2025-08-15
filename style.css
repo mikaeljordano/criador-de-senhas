@@ -2,10 +2,10 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #000000;
-    --fundo-senha: #0004ff;
-    --fundo-texto: #0004ff;
-    --borda: #ffffff;
+    --cor-de-fundo: #000000; /* Preto */
+    --fundo-senha: #ff0000; /* Vermelho */
+    --fundo-texto: #ff0000; /* Vermelho */
+    --borda: #ff0000; /* Vermelho */
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -132,16 +132,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #ff001e;
+    background-color: #ff0000; /* Vermelho */
 }
 
 .media {
-    background-color: #fffb00;
+    background-color: #ff6666; /* Vermelho mais claro */
     width: 50%;
 }
 
 .forte {
-    background-color: #09ff00;
+    background-color: #ff9999; /* Vermelho ainda mais claro */
     width: 100%;
 }
 
@@ -150,9 +150,4 @@ label {
     justify-content: space-between;
 }
 
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha {
-        flex-direction: row;
-    }
-}
+@media
